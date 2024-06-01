@@ -1,13 +1,25 @@
+@media scream and (max-width:569px){
 
-  @media scream and (min-width570px){
+}
+
+body{background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+
+
+  @media scream and (min-width:570px){
     body {
-      background-color: #13171F;
+
+      background-color: #020303;
       font-size: 15px;
       font-family: 'Poppins';
       place-content: center;
+     }
     }
-    
-  }
   
   .calculator {
     margin: auto;
