@@ -28,7 +28,7 @@ function dividir() {
 
 function potencia() {
   var num1 = parseFloat(document.getElementById('num1').value);
-  var resultado = Math.pow(num1, num2);
+  var resultado = Math.pow(num1^num2);
   document.getElementById('resultado').innerText = resultado;
  
 }
